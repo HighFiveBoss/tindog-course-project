@@ -1,0 +1,161 @@
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    size: 3rem;
+    line-height: 1.5;
+    color: white;
+    font-size: 4rem;
+}
+h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+h3 {
+    font-weight: bolder;
+    font-family: 'Montserrat';
+}
+p {
+    color: #8f8f8f
+}
+.card-columns {
+    padding-left: 5%;
+    padding-left: 5%;
+}
+#btn {
+    margin-top: 2rem;
+    margin-right: 1rem;
+}
+.card {
+    padding-bottom: 3%;
+}
+.card-header {
+    background-color: blueviolet;
+}
+.card-footer {
+    background-color: white;
+    border: 0;
+}
+.carousel-item {
+    padding: 7% 15%;
+}
+.features-p {
+    font-size: large;
+}
+.features-item {
+    padding: 5%;
+}
+.fa-img {
+    margin-bottom: 1rem;
+}
+.fa-img:hover {
+    color: tomato;
+}
+.fa-circle-check{
+    color:  rgb(10, 196, 10);
+}
+.fa-bullseye {
+    color: red;
+}
+.fa-heart {
+    color: red;
+}
+.footer-fa {
+    margin: 3% 1%;
+}
+.h3-class {
+    font-size: 3rem;
+    padding: 0 23% 1%;
+}
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.press-img {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+.row {
+    margin-top: 5rem;
+}
+.nav-item {
+    margin: 0 2rem;
+    font-size: x-large;
+    font-family: "Montserrat-Light";
+
+}
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.image-div {
+    text-align: center;
+}
+.title-image {
+    width: 60%;
+    transform: rotate(25deg);
+    position: relative;
+    top: 10%;
+}
+.container-fluid {
+    padding: 3% 15%;
+}
+#features {
+    padding: 7% 15%;
+    position: relative;
+    text-align: center;
+    z-index: 1;
+    background-color: white;
+}
+#cta {
+    padding: 5% 0 7%;
+    text-align: center;
+    background-color: #ff4c68;
+    color: white;
+}
+#footer {
+    background-color: white;
+    text-align: center;
+    padding: 8%;
+}
+#navbarSupportedContent {
+    text-align: right;
+}
+#press {
+    background-color: #ef8182;
+    text-align: center;
+    padding-bottom: 3%;
+}
+#title {
+    background-color: #ff4c68;
+}
+#testimonials {
+    text-align: center;
+    background-color: #ef8182;
+    color: #fff;
+}
+#pricing {
+    padding: 5%;
+    text-align: center;
+}
+@media (max-width: 1330px) and (min-width: 992px) {
+    #title {
+        padding-bottom: 13%;
+    }
+    .title-image {
+        position: relative;
+        transform: none;
+    }
+}
+@media (max-width: 991px) {
+    #title {
+        text-align: center;
+        padding-bottom: 13%;
+        position: relative;
+    }
+    .title-image {
+        position: relative;
+        transform: none;
+    }
+}
